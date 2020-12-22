@@ -473,6 +473,7 @@ CREATE TABLE `ims_ewei_open_farm_task` (
   `end_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `category` enum('签到','任务中心','购买商品','商城下单','会员领取') NOT NULL DEFAULT '签到',
   `create_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `isdiscount_time_start` int(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
