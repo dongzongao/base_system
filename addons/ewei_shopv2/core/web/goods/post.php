@@ -235,6 +235,9 @@ if ($_W['ispost']) {
     , 'diypage'=>intval($_GPC['diypage'])
     , 'cashier'=>intval($_GPC['cashier'])
     , 'video'=>trim($_GPC['video'])
+    , 'refund'=>$_GPC['refund']
+    , 'returngoods'=>$_GPC['returngoods']
+    , 'exchange'=>$_GPC['exchange']
     );
 
 
